@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Me - Portfolio">
-    <meta name="theme-color" content="#2563eb">
-    <title>About - Portfolio</title>
+    <meta name="theme-color" content="#0f172a">
+    <title>About - Yuvanaswar P J</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <div class="container">
-            <a href="index.html" class="logo">MyPortfolio</a>
+            <a href="index.html" class="logo">Yuvanaswar profile</a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html" class="active">About</a></li>
                     <li><a href="skills.html">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="projects.html">Work</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -29,59 +29,94 @@
     </header>
 
     <main class="container">
-        <section>
-            <h1>About Me</h1>
-            <div class="about-grid">
-
-                <!-- Bio -->
-                <div>
-                    <h2 style="border-bottom: none; margin-bottom: 10px;">Who I Am</h2>
-                    <p>
-                        I am a passionate Front-End Developer with a keen eye for detail and a drive for creating
-                        smooth digital experiences. My journey started with a curiosity for how websites work,
-                        which quickly turned into a love for HTML, CSS, and modern web standards.
-                    </p>
-                    <p>
-                        When I'm not coding, I'm exploring new design trends, contributing to open source,
-                        or optimizing web performance. I believe in continuous learning and adapting to the
-                        ever-evolving landscape of web development.
+        <section class="about-grid">
+            <!-- Left Column: Profile -->
+            <div class="glass-card">
+                <h2 style="font-size: 2rem;">About Me</h2>
+                <div
+                    style="width: 100px; height: 100px; background: var(--gradient-main); border-radius: 50%; margin-bottom: 2rem; opacity: 0.8;">
+                </div>
+                <p>
+                    I am an <strong>AI & Data Science enthusiast</strong> and a B.Tech student at Manakula Vinayagar
+                    Institute of Technology.
+                </p>
+                <p>
+                    My journey involves exploring the depths of machine learning, developing automated systems, and
+                    contributing to research in the field.
+                </p>
+                <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                    <h3 style="font-size: 1.2rem; color: var(--accent);">Career Objective</h3>
+                    <p style="font-size: 0.95rem;">
+                        To work in a highly competitive environment where I can tackle complex challenges in AI and
+                        software development, contributing to organizational growth while advancing my technical
+                        expertise.
                     </p>
                 </div>
+            </div>
 
-                <!-- Career Objective -->
-                <div>
-                    <h3>Career Objective</h3>
-                    <p>
-                        To leverage my technical skills in HTML5, CSS3, and responsive design to build
-                        impactful web solutions for a forward-thinking company. I aim to grow as a developer
-                        while contributing to team success through clean, maintainable code.
-                    </p>
-                </div>
-
-                <!-- Education -->
-                <div>
-                    <h2>Education</h2>
-
-                    <div class="education-item">
-                        <h3>Bachelor of Computer Science</h3>
-                        <p><strong>University of Technology</strong> | 2019 - 2023</p>
-                        <p>Graduated with Honors. Specialized in Web Technologies and Human-Computer Interaction.</p>
+            <!-- Right Column: Timeline -->
+            <div>
+                <h2>Education</h2>
+                <div class="timeline">
+                    <!-- B.Tech -->
+                    <div class="timeline-item">
+                        <div class="glass-card">
+                            <h3 style="margin-bottom: 0.5rem; color: var(--primary);">B.Tech – Artificial Intelligence &
+                                Machine Learning</h3>
+                            <p style="margin-bottom: 0; font-weight: 500;">Manakula Vinayagar Institute of Technology,
+                                Pondicherry</p>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">2023 – Present</p>
+                        </div>
                     </div>
 
-                    <div class="education-item">
-                        <h3>Responsive Web Design Certification</h3>
-                        <p><strong>FreeCodeCamp</strong> | 2022</p>
-                        <p>Completed 300 hours of coursework on responsive web design principles, HTML5, and CSS3.</p>
+                    <!-- HSC -->
+                    <div class="timeline-item">
+                        <div class="glass-card">
+                            <h3 style="margin-bottom: 0.5rem;">Higher Secondary Education – 83.67%</h3>
+                            <p style="margin-bottom: 0; font-weight: 500;">Amalorpavam Higher Secondary School,
+                                Pondicherry</p>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">2022 – 2024</p>
+                        </div>
+                    </div>
+
+                    <!-- SSLC -->
+                    <div class="timeline-item">
+                        <div class="glass-card">
+                            <h3 style="margin-bottom: 0.5rem;">SSLC – 100%</h3>
+                            <p style="margin-bottom: 0; font-weight: 500;">Amalorpavam Higher Secondary School,
+                                Pondicherry</p>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">2020 – 2022</p>
+                        </div>
                     </div>
                 </div>
 
+                <div style="margin-top: 4rem;">
+                    <h2>Certifications & Highlights</h2>
+                    <div class="glass-card">
+                        <ul style="list-style: none;">
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                                <span style="color: var(--accent); margin-right: 10px;">★</span>
+                                <strong>Publication:</strong>&nbsp;ICAISDA-2025 ("Automated Student Coding Activity
+                                Tracking")
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                                <span style="color: var(--accent); margin-right: 10px;">✓</span>
+                                Python Development Internship (Shiash Info Solutions)
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                                <span style="color: var(--accent); margin-right: 10px;">✓</span>
+                                AWS Academy Graduate – Machine Learning Foundations
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Alex Developer. All rights reserved.</p>
+            <p>&copy; 2025 YUVANASWAR P J. Built with code & precision.</p>
         </div>
     </footer>
 
