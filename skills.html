@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Skills - Portfolio">
-    <meta name="theme-color" content="#2563eb">
-    <title>Skills - Portfolio</title>
+    <meta name="theme-color" content="#0f172a">
+    <title>Skills - Yuvanaswar P J</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <div class="container">
-            <a href="index.html" class="logo">MyPortfolio</a>
+            <a href="index.html" class="logo">Yuvanaswar profile</a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="skills.html" class="active">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="projects.html">Work</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -29,83 +29,143 @@
     </header>
 
     <main class="container">
-        <h1>My Skills</h1>
+        <h1 style="text-align: center; margin-bottom: 4rem;">Technical <span class="highlight-text">Expertise</span>
+        </h1>
 
-        <div class="about-grid"> <!-- Reusing grid layout -->
+        <div class="skills-grid">
 
-            <!-- Technical Skills -->
-            <section class="skills-container">
-                <h2>Technical Proficiency</h2>
+            <!-- Category: AI & Data Science -->
+            <div class="glass-card skill-category">
+                <h3>🤖 AI & Data Science</h3>
 
-                <div class="skill-bar-wrapper">
-                    <div class="skill-info">
-                        <span>HTML5</span>
-                        <span>95%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 95%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill-bar-wrapper">
-                    <div class="skill-info">
-                        <span>CSS3 / Flexbox / Grid</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 90%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill-bar-wrapper">
-                    <div class="skill-info">
-                        <span>Responsive Design</span>
-                        <span>100%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 100%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill-bar-wrapper">
-                    <div class="skill-info">
-                        <span>Git & Version Control</span>
+                <div class="skill-meter">
+                    <div class="meter-label">
+                        <span>Machine Learning</span>
                         <span>80%</span>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 80%;"></div>
+                    <div class="meter-bg">
+                        <div class="meter-fill" style="width: 80%;"></div>
                     </div>
                 </div>
-            </section>
 
-            <!-- Tools & Soft Skills -->
-            <section>
-                <h2>Tools & Workflow</h2>
-                <div class="tags">
-                    <span class="tag">VS Code</span>
-                    <span class="tag">Figma</span>
-                    <span class="tag">GitHub</span>
-                    <span class="tag">Chrome DevTools</span>
-                    <span class="tag">Command Line</span>
-                    <span class="tag">Adobe XD</span>
+                <div class="skill-meter">
+                    <div class="meter-label">
+                        <span>Data Preprocessing</span>
+                        <span>83%</span>
+                    </div>
+                    <div class="meter-bg">
+                        <div class="meter-fill" style="width: 83%;"></div>
+                    </div>
                 </div>
 
-                <h2 style="margin-top: 40px;">Soft Skills</h2>
-                <div class="tags">
-                    <span class="tag">Problem Solving</span>
-                    <span class="tag">Team Collaboration</span>
-                    <span class="tag">Time Management</span>
-                    <span class="tag">Communication</span>
-                    <span class="tag">Attention to Detail</span>
+                <div class="skill-meter">
+                    <div class="meter-label">
+                        <span>Exploratory Data Analysis</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="meter-bg">
+                        <div class="meter-fill" style="width: 75%;"></div>
+                    </div>
                 </div>
-            </section>
+            </div>
+
+            <!-- Category: Programming -->
+            <div class="glass-card skill-category">
+                <h3>💻 Programming</h3>
+
+                <div class="skill-meter">
+                    <div class="meter-label">
+                        <span>Python (NumPy, Pandas)</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="meter-bg">
+                        <div class="meter-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-meter">
+                    <div class="meter-label">
+                        <span>MySQL / Database</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="meter-bg">
+                        <div class="meter-fill" style="width: 60%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-meter">
+                    <div class="meter-label">
+                        <span>Web (HTML/CSS)</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="meter-bg">
+                        <div class="meter-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Tools & Soft Skills -->
+            <div class="glass-card skill-category">
+                <h3>🛠️ Tools & Attributes</h3>
+                <div class="project-tags">
+                    <span class="tech-tag">VS Code</span>
+                    <span class="tech-tag">Jupyter</span>
+                    <span class="tech-tag">Google Colab</span>
+                    <span class="tech-tag">MS Excel</span>
+                    <span class="tech-tag">Canva</span>
+                </div>
+
+                <h3 style="margin-top: 2rem; color: var(--accent);">🧩 Soft Skills</h3>
+                <div class="project-tags">
+                    <span class="tech-tag" style="border-color: var(--accent); color: var(--accent);">Leadership</span>
+                    <span class="tech-tag"
+                        style="border-color: var(--accent); color: var(--accent);">Adaptability</span>
+                    <span class="tech-tag" style="border-color: var(--accent); color: var(--accent);">Analytical
+                        Thinking</span>
+                </div>
+            </div>
+
+            <!-- Category: Languages -->
+            <div class="glass-card skill-category">
+                <h3>🗣️ Languages</h3>
+
+                <div class="skill-meter">
+                    <div class="meter-label">
+                        <span>English (Professional)</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="meter-bg">
+                        <div class="meter-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-meter">
+                    <div class="meter-label">
+                        <span>Tamil (Native)</span>
+                        <span>100%</span>
+                    </div>
+                    <div class="meter-bg">
+                        <div class="meter-fill" style="width: 100%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-meter">
+                    <div class="meter-label">
+                        <span>French (Beginner)</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="meter-bg">
+                        <div class="meter-fill" style="width: 40%;"></div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Alex Developer. All rights reserved.</p>
+            <p>&copy; 2025 YUVANASWAR P J. Built with code & precision.</p>
         </div>
     </footer>
 
