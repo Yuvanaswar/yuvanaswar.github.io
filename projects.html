@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projects - Portfolio">
-    <meta name="theme-color" content="#2563eb">
-    <title>Projects - Portfolio</title>
+    <meta name="theme-color" content="#0f172a">
+    <title>Work - Yuvanaswar P J</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <div class="container">
-            <a href="index.html" class="logo">MyPortfolio</a>
+            <a href="index.html" class="logo">Yuvanaswar profile</a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="skills.html">Skills</a></li>
-                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="projects.html" class="active">Work</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -29,79 +29,67 @@
     </header>
 
     <main class="container">
-        <h1>Recent Projects</h1>
+        <h1>Selected <span class="highlight-text">Works</span></h1>
 
         <div class="projects-grid">
 
-            <!-- Project 1 -->
-            <article class="project-card">
-                <div class="project-placeholder">
-                    P1
+            <!-- Project 1: Research (Featured) -->
+            <div class="glass-card project-card">
+                <div style="margin-bottom: 20px;">
+                    <span
+                        style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent); border: 1px solid var(--accent); padding: 4px 8px; border-radius: 4px;">Featured
+                        Research</span>
                 </div>
-                <div class="project-content">
-                    <h3>E-Commerce Dashboard</h3>
-                    <p>A responsive dashboard interface for managing online store inventory and stats. Built with pure
-                        grid layout.</p>
-                    <div class="project-tech">HTML5 • CSS Grid • Responsive</div>
-                    <div style="margin-top: 15px;">
-                        <a href="#" class="btn-outline" style="padding: 8px 16px; font-size: 0.9rem;">View Details</a>
-                    </div>
+                <h3>Automated Student Coding Validation System</h3>
+                <p>
+                    A comprehensive web-based evaluation system that automates the tracking of student coding activities
+                    using web scraping (Selenium) and messaging APIs.
+                </p>
+                <p style="font-size: 0.9rem; color: #fff;">
+                    <strong>Outcome:</strong> Published in International Conference ICAISDA-2025.
+                </p>
+                <div class="project-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Selenium</span>
+                    <span class="tech-tag">Twilio API</span>
+                    <span class="tech-tag">Web Scraping</span>
                 </div>
-            </article>
+            </div>
 
             <!-- Project 2 -->
-            <article class="project-card">
-                <div class="project-placeholder" style="background-color: #94a3b8;">
-                    P2
+            <div class="glass-card project-card">
+                <h3>Credit Card Fraud Detection System</h3>
+                <p>
+                    A Machine Learning model designed to detect fraudulent credit card transactions with high accuracy.
+                    Implemented data balancing techniques (SMOTE) to handle class imbalance.
+                </p>
+                <div class="project-tags">
+                    <span class="tech-tag">Machine Learning</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Scikit-Learn</span>
+                    <span class="tech-tag">Pandas</span>
                 </div>
-                <div class="project-content">
-                    <h3>Landing Page Clone</h3>
-                    <p>Pixel-perfect recreation of a popular landing page to practice modern CSS layout techniques and
-                        animations.</p>
-                    <div class="project-tech">HTML5 • CSS Animations • Flexbox</div>
-                    <div style="margin-top: 15px;">
-                        <a href="#" class="btn-outline" style="padding: 8px 16px; font-size: 0.9rem;">View Details</a>
-                    </div>
-                </div>
-            </article>
+            </div>
 
-            <!-- Project 3 -->
-            <article class="project-card">
-                <div class="project-placeholder" style="background-color: #64748b; color: white;">
-                    P3
+            <!-- Placeholder for future project -->
+            <div class="glass-card project-card" style="opacity: 0.7; border-style: dashed;">
+                <h3>Upcoming AI Project</h3>
+                <p>
+                    Currently researching Deep Learning architectures for image classification tasks. Stay tuned for
+                    updates.
+                </p>
+                <div class="project-tags">
+                    <span class="tech-tag">Deep Learning</span>
+                    <span class="tech-tag">R&D</span>
                 </div>
-                <div class="project-content">
-                    <h3>Portfolio v1</h3>
-                    <p>My first personal website. A minimal static site focusing on typography and readability.</p>
-                    <div class="project-tech">HTML5 • CSS3</div>
-                    <div style="margin-top: 15px;">
-                        <a href="#" class="btn-outline" style="padding: 8px 16px; font-size: 0.9rem;">View Details</a>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Project 4 -->
-            <article class="project-card">
-                <div class="project-placeholder" style="background-color: #475569; color: white;">
-                    P4
-                </div>
-                <div class="project-content">
-                    <h3>Documentation Site</h3>
-                    <p>A multi-page documentation template featuring a sticky sidebar navigation and accessible
-                        structure.</p>
-                    <div class="project-tech">Semantic HTML • CSS Variables</div>
-                    <div style="margin-top: 15px;">
-                        <a href="#" class="btn-outline" style="padding: 8px 16px; font-size: 0.9rem;">View Details</a>
-                    </div>
-                </div>
-            </article>
+            </div>
 
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Alex Developer. All rights reserved.</p>
+            <p>&copy; 2025 YUVANASWAR P J. Built with code & precision.</p>
         </div>
     </footer>
 
