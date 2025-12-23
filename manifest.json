@@ -1,10 +1,10 @@
 {
-    "name": "Alex Developer Portfolio",
-    "short_name": "AlexPortfolio",
+    "name": "Yuvanaswar Portfolio",
+    "short_name": "Yuvanaswar",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#2563eb",
+    "background_color": "#f1f5f9",
+    "theme_color": "#1e3a8a",
     "orientation": "portrait",
     "icons": [
         {
