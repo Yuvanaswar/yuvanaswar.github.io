@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact - Portfolio">
-    <meta name="theme-color" content="#2563eb">
-    <title>Contact - Portfolio</title>
+    <meta name="theme-color" content="#0f172a">
+    <title>Contact - Yuvanaswar P J</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <div class="container">
-            <a href="index.html" class="logo">MyPortfolio</a>
+            <a href="index.html" class="logo">Yuvanaswar profile</a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="skills.html">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="projects.html">Work</a></li>
                     <li><a href="contact.html" class="active">Contact</a></li>
                 </ul>
             </nav>
@@ -29,75 +29,75 @@
     </header>
 
     <main class="container">
-        <h1>Get In Touch</h1>
+        <h1 style="text-align: center; margin-bottom: 3rem;">Let's <span class="highlight-text">Connect</span></h1>
 
-        <div class="contact-container">
-
+        <div class="contact-wrapper">
             <!-- Contact Info -->
-            <div class="contact-details">
-                <p style="margin-bottom: 30px; font-size: 1.1rem;">
-                    Interested in working together? Fill out the form or reach out directly via email or phone.
-                    I'm currently available for freelance projects and full-time opportunities.
-                </p>
+            <div class="glass-card">
+                <h3 style="margin-bottom: 2rem;">Contact Information</h3>
 
-                <div class="contact-info-item">
-                    <div class="contact-icon">@</div>
-                    <div>
-                        <strong>Email</strong><br>
-                        alex.dev@example.com
-                    </div>
+                <div style="margin-bottom: 2rem;">
+                    <strong style="display: block; color: var(--accent); margin-bottom: 5px;">Email</strong>
+                    <span style="font-size: 1.1rem;">yuvanaswar@gmail.com</span>
                 </div>
 
-                <div class="contact-info-item">
-                    <div class="contact-icon">#</div>
-                    <div>
-                        <strong>Phone</strong><br>
-                        +1 (555) 123-4567
-                    </div>
+                <div style="margin-bottom: 2rem;">
+                    <strong style="display: block; color: var(--accent); margin-bottom: 5px;">Phone</strong>
+                    <span style="font-size: 1.1rem;">+91 82207 30577</span>
                 </div>
 
-                <div class="contact-info-item">
-                    <div class="contact-icon">L</div>
-                    <div>
-                        <strong>Location</strong><br>
-                        San Francisco, CA
-                    </div>
+                <div>
+                    <strong style="display: block; color: var(--accent); margin-bottom: 5px;">Location</strong>
+                    <span style="font-size: 1.1rem;">Pondicherry, India</span>
+                </div>
+
+                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                    <p>
+                        Currently available for freelance opportunities and full-time roles in AI & Data Science.
+                    </p>
                 </div>
             </div>
 
             <!-- Contact Form -->
-            <form class="contact-form" action="#" method="POST">
+            <div class="contact-form-card">
+                <form action="mailto:yuvanaswar@gmail.com" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
 
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required placeholder="John Doe">
-                </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
 
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required placeholder="john@example.com">
-                </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                    </div>
 
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
-                </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Type your message here..."></textarea>
+                    </div>
 
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required
-                        placeholder="Tell me about your project..."></textarea>
-                </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
 
-                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
-            </form>
-
+                    <div style="margin-top: 20px; text-align: center;">
+                        <p style="color: var(--accent); font-size: 0.9rem; margin-bottom: 0;">
+                            <span style="font-size: 1.2rem;">📩</span><br>
+                            This form will open your default email app.
+                        </p>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Alex Developer. All rights reserved.</p>
+            <p>&copy; 2025 YUVANASWAR P J. Built with code & precision.</p>
         </div>
     </footer>
 
